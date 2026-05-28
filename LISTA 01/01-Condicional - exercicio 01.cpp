@@ -7,19 +7,19 @@ main(){
 	setlocale(LC_ALL,"Portuguese");
 	float nota1,nota2,nota3,nota4,media;
 	
-	// introdução das notas pelo usuário 
-	printf("Digite a nota da matéria 01: ");
+	// introduÃ§Ã£o das notas pelo usuÃ¡rio 
+	printf("Digite a nota da matÃ©ria 01: ");
 	scanf("%f",&nota1);
-	printf("Digite a nota da matéria 02: ");
+	printf("Digite a nota da matÃ©ria 02: ");
 	scanf("%f",&nota2);
-	printf("Digite a nota da matéria 03: ");
+	printf("Digite a nota da matÃ©ria 03: ");
 	scanf("%f",&nota3);
-	printf("Digite a nota da matéria 04: ");
+	printf("Digite a nota da matÃ©ria 04: ");
 	scanf("%f",&nota4);
 	
-	//cálculo da média 
+	//cÃ¡lculo da mÃ©dia 
 	media = (nota1+nota2+nota3+nota4)/4;
-	printf("A média do aluno(a) é: %.2f\n",media);
+	printf("A mÃ©dia do aluno(a) Ã©: %.2f\n",media);
 	
 	if (media >= 7.0){
 		printf("Aprovado\n");
